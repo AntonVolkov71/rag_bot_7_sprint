@@ -1,0 +1,10 @@
+server:
+  port: 8081
+
+rag:
+  base-url: http://127.0.0.1:8000
+
+telegram:
+  bot:
+    username: test_rag_yandex_gpt
+    token: ${TELEGRAM_BOT_TOKEN}

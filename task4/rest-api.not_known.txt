@@ -1,0 +1,29 @@
+curl --request POST \
+  --url http://127.0.0.1:8000/ask \
+  --header 'Content-Type: application/json' \
+  --header 'User-Agent: insomnia/12.2.0' \
+  --data '{
+	"question":"Кто такие Собаки сутулые"
+}'
+
+{
+	"found": false,
+	"answer": "Я не знаю: в базе нет подтверждений по этому вопросу.\nВопрос пользователя: «Кто такие Собаки сутулые»\nОтвет сформирован без использования LLM.",
+	"sources": []
+}
+
+
+-----------------------
+curl --request POST \
+  --url http://127.0.0.1:8000/ask \
+  --header 'Content-Type: application/json' \
+  --header 'User-Agent: insomnia/12.2.0' \
+  --data '{
+	"question":"Кто такая Лопата с глазами"
+}'
+
+{
+	"found": false,
+	"answer": "Я не знаю: в базе нет подтверждений по этому вопросу.\nВопрос пользователя: «Кто такая Лопата с глазами»\nОтвет сформирован без использования LLM.",
+	"sources": []
+}
