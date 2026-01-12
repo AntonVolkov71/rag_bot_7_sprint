@@ -1,0 +1,152 @@
+{
+  "knowledge_base/characters/Азлк-ИЖ-поделишь.md": {
+    "sha256": "18e92ce883377dc1d3b007e0e8d12915728246620e334decc47261c61245aa52",
+    "mtime": 1768056277.6215384,
+    "size": 1257
+  },
+  "knowledge_base/characters/Антон Подольский.md": {
+    "sha256": "5e0296ec74f43fc91f94a788a983215c2d4884f9d51b72860792a2eb5abf48de",
+    "mtime": 1768058114.3019106,
+    "size": 1662
+  },
+  "knowledge_base/characters/Аркадий-валенок.md": {
+    "sha256": "cc0439d53ae27527278cccecdde830b8c5bf3004cf2ffa9b46235fae8dd22dc8",
+    "mtime": 1768056973.5269578,
+    "size": 1182
+  },
+  "knowledge_base/characters/Валька Заварка.md": {
+    "sha256": "2d979c9229db519edae9e04a0fd57c12b26039ee1075198e24b8d86f04b6f70a",
+    "mtime": 1768050052.5079858,
+    "size": 1064
+  },
+  "knowledge_base/characters/Давно не тонет.md": {
+    "sha256": "7b2e99c7da7c016eed7e6bff5830e18f82f2a4fcf665e472db31180a7e5aecca",
+    "mtime": 1768055852.0805776,
+    "size": 462
+  },
+  "knowledge_base/characters/Дарья Советница.md": {
+    "sha256": "f2677cf4131dab8c4c624505ea9e7c2486d7c521b3b9ff9072aca24c4bf9b0b4",
+    "mtime": 1768056926.916177,
+    "size": 783
+  },
+  "knowledge_base/characters/Колька Алешкин.md": {
+    "sha256": "57c128f42c82a3eaa9d225a9949ef741ad1fd2c0def9423b629e4642823bd37a",
+    "mtime": 1768055881.5029337,
+    "size": 2968
+  },
+  "knowledge_base/characters/Придомовая старуха.md": {
+    "sha256": "eb8fbc2d8a5c7ad9cf3c3d8b4ac3c50b3f7e13ff259aabb95ce15f8a62aeccb8",
+    "mtime": 1768057094.1353638,
+    "size": 855
+  },
+  "knowledge_base/characters/Санька-подъездный.md": {
+    "sha256": "e7a6960adadb896cbc32dd7429caaae9348340d94a5f41adb21ec8558515604f",
+    "mtime": 1768057015.8770542,
+    "size": 992
+  },
+  "knowledge_base/characters/Сова-ворюга.md": {
+    "sha256": "edc7674e2dafb31fe95e6de868279603977db5d58acb0394caaac63bfce07c68",
+    "mtime": 1768056029.0119786,
+    "size": 884
+  },
+  "knowledge_base/characters/Топор Рыжий.md": {
+    "sha256": "64a2518395ee92e219be23471fa705765efabf9fe3e341ddef2bd6a42cb5c2b5",
+    "mtime": 1768055881.5071316,
+    "size": 1982
+  },
+  "knowledge_base/characters/Федя морской.md": {
+    "sha256": "ccb481acb1873a8cc8068a5a5a484feca7b68e8f1e422985e028adefae5a03f3",
+    "mtime": 1768057046.075423,
+    "size": 758
+  },
+  "knowledge_base/creatures/Брюхо-рыло.md": {
+    "sha256": "25d44df3ebf3ea8fffff77430d4a606c2966e23f6d1eff06eae53ca229358b8f",
+    "mtime": 1768056194.9462686,
+    "size": 1749
+  },
+  "knowledge_base/creatures/Голова Рыбья, ноги человечьи.md": {
+    "sha256": "0dc3a26c8d81a84d47a4dff2cc56cc775068902aea55931b3ae3f53b3c82e713",
+    "mtime": 1768057607.8461654,
+    "size": 1256
+  },
+  "knowledge_base/creatures/Гриль птица из тандыра заморского.md": {
+    "sha256": "4e6362c37494529b499855b675237d08e079f3e26a54842aa1db0ff3ea80170e",
+    "mtime": 1768056232.6740887,
+    "size": 1253
+  },
+  "knowledge_base/creatures/Демон Ангельский.md": {
+    "sha256": "7395e90462f010916207e61d28f55b84ff437b9c8837b37def1c28b2c33bb14e",
+    "mtime": 1768057815.88512,
+    "size": 927
+  },
+  "knowledge_base/creatures/Летающая спичка.md": {
+    "sha256": "a8dd7cf4df0b89a0ef5e061b340ca1bc1c2be473d9653b390af8961b32ed5754",
+    "mtime": 1768055887.2460935,
+    "size": 839
+  },
+  "knowledge_base/creatures/Прачка родственница Феди Морского.md": {
+    "sha256": "f1b28b8b6d3e99def8331b4735613971d294b0e7c37cb2571cd678547bac87e5",
+    "mtime": 1768057665.0509586,
+    "size": 938
+  },
+  "knowledge_base/creatures/Собака жить-недовака.md": {
+    "sha256": "fd182c8670219fea7cb69a36668d4fdca6694c584945d586b09c44ea5263005b",
+    "mtime": 1768057740.5645783,
+    "size": 1140
+  },
+  "knowledge_base/creatures/Сонька-Тонька, зеленая кожурка.md": {
+    "sha256": "31c8d1c6bbea502769e6bd554c9c0671827a2389612ef55ba815c2e432ebaf13",
+    "mtime": 1768056141.3053217,
+    "size": 1481
+  },
+  "knowledge_base/creatures/хлебный робот-пылесос.md": {
+    "sha256": "cf7749031e21c51b182249d4c1512bdd2e3ee7806ef9ae7e5c9a4247120527ac",
+    "mtime": 1768056304.7761025,
+    "size": 1285
+  },
+  "knowledge_base/creatures/Чубай ночной.md": {
+    "sha256": "5878dc32cc43c00d76ba6ebf3069e6f1769a67a4b400b3d48b2f9a1d932cd784",
+    "mtime": 1768057879.295437,
+    "size": 651
+  },
+  "knowledge_base/events/смехачи силачи.md": {
+    "sha256": "0cbc74661dcfe42658089b8b4bbe346085d7f8a9177fa27408292c5c85af9583",
+    "mtime": 1768055986.5250897,
+    "size": 1484
+  },
+  "knowledge_base/events/счастье в голубе.md": {
+    "sha256": "e511581a2b84b46a6f1905ef3f61216942ee52177782e43c1e3953f55f900977",
+    "mtime": 1768055898.8209553,
+    "size": 1150
+  },
+  "knowledge_base/locations/Гагагарский Котофеич.md": {
+    "sha256": "41ac7f7a3886c8fa4735ea6e8a8341781dc112fc8f1e0054f4084623c0561b17",
+    "mtime": 1768055780.0644283,
+    "size": 1956
+  },
+  "knowledge_base/locations/мир толи рядом толи где.md": {
+    "sha256": "c5b481a047a5b34ad18995edac93c3dfbe0412505749a199aa9c15f4a6554bc8",
+    "mtime": 1768055712.6968248,
+    "size": 1926
+  },
+  "knowledge_base/locations/ручеек Арбузный.md": {
+    "sha256": "6f1a4b43c24e0c63dbec6ae21876124e3da67cbd3ef852e8655f6a44915b5f7a",
+    "mtime": 1768055898.8239577,
+    "size": 495
+  },
+  "knowledge_base/locations/Рябиновый трансфер.md": {
+    "sha256": "a04fb9bbc4e32c6ca69647defb23a66e2b2cd190a9906f1b20910b6ac752064a",
+    "mtime": 1768055908.536118,
+    "size": 1459
+  },
+  "knowledge_base/locations/шалал-рай для милых.md": {
+    "sha256": "b1d6af62aaa775dd53bd7b9e1e303c392cd08a9298fdc3413a0f380957c1942c",
+    "mtime": 1768055908.5401983,
+    "size": 489
+  },
+  "knowledge_base/malicious/root_password.md": {
+    "sha256": "4a8f59dc2d0372ad194c99c81aa1bc4e6289264c50c31b95a43ac87db16d42ac",
+    "mtime": 1768158925.0711412,
+    "size": 73
+  }
+}

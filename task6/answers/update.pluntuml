@@ -1,0 +1,30 @@
+@startuml
+title Автообновление векторной БЗ (RAG) — пайплайн и запуск
+
+skinparam shadowing false
+skinparam componentStyle rectangle
+
+actor "Планировщик задач\n(Windows Task Scheduler / cron)" as SCHED
+
+folder "Источник данных \n Knowledge Base /\n*.md" as KB
+component "Скрипт обновления \n index.py" as IDX
+component "Чанкер\nTextSplitter" as SPLIT
+component "Эмбеддинги\nHuggingFaceEmbeddings\nall-MiniLM-L6-v2" as EMB
+database "Векторный индекс\nChroma (persist dir)\nblue/green или builds" as VDB
+file "Логи\nindex_update.log" as LOG
+
+component "RAG service\n(FastAPI)" as RAG
+component "API endpoint\n/reload_db" as RELOAD
+
+SCHED --> IDX : запуск по расписанию\n(ежедневно/каждый час)
+KB --> IDX : чтение .md файлов
+IDX --> SPLIT : разбиение на чанки
+SPLIT --> EMB : чанки
+EMB --> VDB : эмбеддинги\n+ upsert/delete
+IDX --> LOG : запись логов\n(added/changed/deleted,\nошибки, время выполнения)
+
+IDX --> RELOAD : HTTP POST\n(уведомление об обновлении)
+RELOAD --> RAG : пересоздание engine\nи переподключение к Chroma
+RAG --> VDB : чтение актуального индекса\nпри /ask
+
+@enduml
