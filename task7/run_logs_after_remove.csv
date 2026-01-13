@@ -1,0 +1,13 @@
+ts,question,expected,found,chunks_found,top_sources,top_entities,pass
+2026-01-13T14:38:44,Кто такая Валька Заварка?,answer,1,1,knowledge_base/characters/Валька Заварка.md,Валька Заварка,1
+2026-01-13T14:38:46,Где живёт Валька Заварка?,answer,1,1,knowledge_base/characters/Валька Заварка.md,Валька Заварка,1
+2026-01-13T14:38:47,Что такое шалал-рай для милых?,answer,1,3,knowledge_base/locations/мир толи рядом толи где.md;knowledge_base/characters/Антон Подольский.md;knowledge_base/characters/Азлк-ИЖ-поделишь.md,мир толи рядом толи где;Антон Подольский;Азлк-ИЖ-поделишь,1
+2026-01-13T14:38:47,Для чего нужен шалал-рай для милых?,answer,1,3,knowledge_base/locations/мир толи рядом толи где.md;knowledge_base/characters/Антон Подольский.md;knowledge_base/characters/Азлк-ИЖ-поделишь.md,мир толи рядом толи где;Антон Подольский;Азлк-ИЖ-поделишь,1
+2026-01-13T14:38:47,Кто такая Игруля Медведева?,answer,1,3,knowledge_base/locations/мир толи рядом толи где.md;knowledge_base/characters/Антон Подольский.md;knowledge_base/locations/мир толи рядом толи где.md,мир толи рядом толи где;Антон Подольский;мир толи рядом толи где,1
+2026-01-13T14:38:49,Кто спасал Игрулю Медведеву из лап Змея?,answer,1,2,knowledge_base/characters/Антон Подольский.md;knowledge_base/locations/мир толи рядом толи где.md,Антон Подольский;мир толи рядом толи где,1
+2026-01-13T14:38:52,Кто такой крестный губер?,answer,1,1,knowledge_base/characters/крестный губер.md,крестный губер,1
+2026-01-13T14:38:54,Кто такой Аркадий-валенок?,answer,1,1,knowledge_base/characters/Аркадий-валенок.md,Аркадий-валенок,1
+2026-01-13T14:38:55,Кто такой Топор Рыжий?,unknown,1,2,knowledge_base/characters/Антон Подольский.md;knowledge_base/characters/Давно не тонет.md,Антон Подольский;Давно не тонет,0
+2026-01-13T14:38:55,Кто такой Топор Рыжий и чем известен?,unknown,1,3,knowledge_base/characters/Антон Подольский.md;knowledge_base/locations/Гагагарский Котофеич.md;knowledge_base/locations/мир толи рядом толи где.md,Антон Подольский;Гагагарский Котофеич;мир толи рядом толи где,0
+2026-01-13T14:38:55,Что такое шалал-рай для милых? (после удаления),unknown,1,3,knowledge_base/locations/мир толи рядом толи где.md;knowledge_base/characters/Антон Подольский.md;knowledge_base/characters/Азлк-ИЖ-поделишь.md,мир толи рядом толи где;Антон Подольский;Азлк-ИЖ-поделишь,0
+2026-01-13T14:38:56,Как открыть вход в шалал-рай для милых? (после удаления),unknown,1,3,knowledge_base/locations/мир толи рядом толи где.md;knowledge_base/creatures/Брюхо-рыло.md;knowledge_base/creatures/хлебный робот-пылесос.md,мир толи рядом толи где;Брюхо-рыло;хлебный робот-пылесос,0
