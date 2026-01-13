@@ -1,0 +1,26 @@
+services:
+  rag_service:
+    build:
+      context: ./rag_service
+    ports:
+      - "8000:8000"
+    env_file:
+      - ./.env
+    volumes:
+      - ./knowledge_base:/workspace/knowledge_base:ro
+      - ./vector_store_chroma_builds:/workspace/vector_store_chroma_builds
+      - ./vector_store_chroma_active.txt:/workspace/vector_store_chroma_active.txt
+    restart: unless-stopped
+    environment:
+      - PROJECT_ROOT=/workspace
+
+  tg_bot_service:
+    build:
+      context: ./tg_bot_service
+    environment:
+      - TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN}
+      - RAG_BASE_URL=http://rag_service:8000
+      - SPRING_PROFILES_ACTIVE=prod
+    depends_on:
+      - rag_service
+    restart: unless-stopped
