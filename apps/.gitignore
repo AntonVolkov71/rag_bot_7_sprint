@@ -1,0 +1,5 @@
+./vector_store_chroma_builds
+vector_store_chroma_active.txt
+index_update.log
+.env
+.venv

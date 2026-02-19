@@ -1,0 +1,8 @@
+langchain-community
+sentence-transformers
+chromadb
+langchain
+langchain-text-splitters
+fastapi
+uvicorn[standard]
+python-dotenv

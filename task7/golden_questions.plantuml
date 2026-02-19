@@ -1,0 +1,31 @@
+@startuml
+actor User
+participant "tg_bot_service" as TG
+participant "rag_service /ask" as RAG
+participant "RagEngine" as ENG
+database "Chroma (active: blue/green)\nvector_store_chroma_*" as DB
+participant "YandexGPT" as LLM
+database "CSV logs\n(run_logs.csv)" as LOG
+
+User -> TG: message(question)
+TG -> RAG: POST /ask {question,k}
+
+RAG -> ENG: retrieve(question,k)
+ENG -> DB: similarity/MMR search\n(+ filter by entity if matched)
+DB --> ENG: docs + metadata(source,category,entity)
+ENG --> RAG: chunks + matched_entity
+
+RAG -> ENG: sanitize_chunks (optional)
+RAG -> ENG: post_filter_chunks (optional)
+
+alt no chunks (IDK)
+  RAG --> TG: found=false + "Я не знаю..."
+else chunks exist
+  RAG -> ENG: build_prompt(question,chunks)\n(PREPROMPTED optional)
+  RAG -> LLM: generate(prompt)\n(LLM_ENABLED optional)
+  LLM --> RAG: answer
+  RAG --> TG: found=true + answer + sources
+end
+
+TG -> LOG: append CSV row\n(found,chunks_found,top_sources,pass)
+@enduml

@@ -1,0 +1,14 @@
+spring:
+  output:
+    ansi:
+      enabled: always
+  profiles:
+    active: dev
+
+logging:
+  level:
+    org:
+      springframework:
+        web: DEBUG
+
+
